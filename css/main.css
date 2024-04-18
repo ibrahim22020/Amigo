@@ -1,0 +1,429 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* font-family: 'Amatic SC', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+body {
+    margin: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* NAVBAR START */
+.nav {
+    padding: 10px 0px;
+    background-color: #000000d1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999999;
+}
+.nav a
+{
+    color:rgb(255, 255, 255)
+}
+
+.nav .container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .container .nav-logo span {
+    color: #CE1212;
+}
+
+.nav .container ul {
+
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+
+}
+
+.nav .container ul li a {
+    position: relative;
+}
+
+.nav .container ul li a::after {
+    content: '';
+    background-color: #CE1212;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    top: 120%;
+    left: 0px;
+    transition: width .5s;
+}
+
+.nav .container ul li a:hover::after {
+    width: 100%;
+}
+
+/* NAVBAR END */
+
+/* HOME START */
+
+#home {
+    background-color: #EEEEEE;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+    
+}
+
+#home .container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home .container .home-caption {
+    padding: 30px 50px 30px 0px;
+
+    width: 40%;
+
+}
+
+#home .container .home-caption h2 {
+
+}
+
+#home .container .home-caption p {
+    padding: 20px 0;
+}
+
+
+.test {
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to right, #CE1212 50%, transparent 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.test .inner-test {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid-btn {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.vid-btn i,.vid-btn a{
+    transition: color .3s;
+}
+.vid-btn:hover i,.vid-btn:hover a{
+    color: #CE1212;
+}
+
+.all-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.all-btn .btn {
+    background-color: #CE1212;
+    padding: 0.625rem 1.5625rem;
+    border-radius: 100vh;
+    border-top-left-radius: 0%;
+    color: white;
+}
+
+
+
+
+#home .container .home-image {
+    width: 40%;
+    border-radius: 50%;
+
+}
+
+#home .container .home-image img {
+    width: 100%;
+
+}
+
+#home .container .home-image:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 1s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+/* HOME END */
+
+
+
+/* CHEFS START */
+
+#chef {
+    
+
+    text-align: center;
+}
+
+#chef .container,
+#gallary .container {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+#chef .container .title,
+#gallary .container .title {
+    margin: 30px 0px;
+}
+
+#chef .container .title h2,
+#gallary .container .title h2 {
+    color: #7f7f90;
+    font-weight: 400;
+    font-size: .875rem;
+}
+
+#chef .container .title p,
+#gallary .container .title p {
+    font-size: 3.125rem;
+    color: #212529;
+    margin: 0px;
+}
+
+#chef .container .title p span,
+#gallary .container .title p span {
+    color: #CE1212;
+
+}
+
+
+
+
+#chef .container .items .inner-items {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+
+#chef .container .items .inner-items .item {
+    margin: 20px 0px;
+    width: 30%;
+    border-radius: 20px;
+    transition: transform .5s;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#chef .container .items .inner-items .item:hover {
+    transform: scale(1.1);
+}
+
+#chef .container .items .inner-items .item .inner-item img {
+    max-width: 100%;
+
+}
+
+#chef .container .items .inner-items .item .inner-item .social-icon {
+    background-color: #ffffff4d;
+    width: fit-content;
+    padding: 0px;
+    width: 45px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 35px;
+    right: 15px;
+    transform: translateX(150%);
+    transition: transform .5s .5s;
+
+}
+
+#chef .container .items .inner-items .item:hover .social-icon {
+    transform: translateX(0%);
+}
+
+#chef .container .items .inner-items .item .inner-item .social-icon .fa-brands {
+    transition: color .3s;
+}
+
+#chef .container .items .inner-items .item .inner-item .social-icon .fa-twitter:hover {
+    color: #1da1f2;
+
+}
+
+#chef .container .items .inner-items .item .inner-item .social-icon .fa-facebook-f:hover {
+    color: #316ff6;
+
+}
+
+#chef .container .items .inner-items .item .inner-item .social-icon .fa-instagram:hover {
+    color: lightcoral;
+
+}
+
+#chef .container .items .inner-items .item .inner-item .social-icon .fa-linkedin:hover {
+    color: #0077b5;
+
+}
+
+
+/* CHEFS END */
+#gallary
+{
+    margin: 70px 0px;
+    padding: 40px 0px;
+    background-color: #EEEEEE;
+}
+#gallary .container .meals {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+#gallary .container .meals .meal {
+
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+
+
+}
+
+#gallary .container .meals .meal .inner-meal {
+
+    border: #fff solid 4px;
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+#gallary .container .meals .meal .inner-meal .overlay {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.363);
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0px;
+    transition: all 0.5s;
+    opacity: 0;
+    color: #fff;
+
+
+}
+
+#gallary .container .meals .meal .inner-meal:hover .overlay {
+    height: 100%;
+    opacity: 1;
+}
+
+
+#gallary .container .meals .meal .inner-meal img {
+    width: 100%;
+    display: block;
+    transition: all 0.5s;
+
+}
+
+#gallary .container .meals .meal .inner-meal:hover img {
+    transform: scale(1.1);
+    filter: blur(2px);
+}

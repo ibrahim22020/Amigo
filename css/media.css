@@ -1,0 +1,52 @@
+@media (max-width:992px) {
+    .nav .container ul {
+        display: none;
+    }
+    #home .container {
+        flex-direction: column;
+    }
+    #home .container .home-caption {
+        
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #home .container .home-image {
+        width: 100%;
+        padding: 30px;
+        margin: 20px 0 0 0 ;
+        
+    
+    }
+    #chef .container .items .inner-items {
+       flex-direction: column;
+       align-items: center;}
+
+
+
+       #chef .container .items .inner-items .item {
+        
+        width: 100%;
+        
+    
+    }
+    #gallary .container .meals {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+    
+    }
+
+    #gallary .container .meals .meal {
+
+        width: 100%;
+        gap: 10px;
+
+    }
+}

@@ -1,0 +1,401 @@
+
+@media screen and (max-width: 768px) 
+{
+   
+
+    .navbar
+    {
+
+        background-color: transparent;
+        
+    }
+    .navContant {
+
+        display: flex;
+    
+    }
+    .socialIcon
+    {
+        display: none;
+    }
+    .navContant ul
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+    .navContant ul li a
+    {
+        font-size: 12px;
+    }
+    .navbar .logo a
+    {
+        display: flex;
+        font-size: 10px;
+    }
+    .navbar .logo a img
+    {
+        width: 70%;
+      
+    }
+    .caption .prag1 {
+        font-size: 1rem !important;
+      
+    }
+    .caption h2 {
+       
+        font-size: 33px;
+       
+    }
+    
+    .caption .prag2 
+    {
+        
+        font-size: 16px !important;
+    }
+    .header h2 {
+       
+        font-size: 4rem !important;
+    }
+    .header p
+    {
+        font-size: 24;
+    }
+
+
+    .container
+    {
+        margin: 0;
+        padding: 0 10;
+    }
+    .aboutCaptionContainer .same {
+        margin-top: 0;
+        
+    }
+    
+    .first{
+        width: 100%;
+        
+    }
+    .firstInner
+    {
+        text-align: center;
+    }
+    .second {
+        width: 100%;
+        
+        padding-left: 0;
+        
+    }
+    .secondInner {
+       
+        padding-left: 0;
+    
+    }
+    .second .secondInner ul 
+    {
+       
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .second .secondInner ul li
+    {
+        width: 80%;
+        margin-right: auto;
+    }
+    .secondInner ul li span {
+        margin-right: 0;
+        
+    }
+    .CV-btn 
+    {
+        font-size: 12;
+        padding: 0.4rem 1.6rem;;
+    }
+    .singleFact {
+        width: 50%;
+
+    }
+    .fact1
+    {
+        border-right: 1px dotted #e0dede;
+        border-bottom:1px dotted #e0dede; 
+    }
+    .fact2 
+    {
+        border-bottom:1px dotted #e0dede; 
+        border-left:none;
+        border-right:none;
+    }
+    .fact3
+    {
+        border-right:1px dotted #e0dede; 
+       
+       
+    }
+    .singleService {
+        width: 100%;
+       
+    }
+    .myEduction,
+.myExperience {
+
+    width: 100%;
+  
+    padding: 0 24;
+
+}
+.singleSkill {
+
+    width: 100%;
+}
+.singleSkill1 ,.singleSkill2
+{
+    padding:0;
+}
+.download-cv-btn .btn {
+    color: #6c757d;
+  
+    padding: 0.6rem 1.6rem;
+    
+
+}
+.portfolio-pic-container
+{
+    width: 100%;
+}
+.singleClient {
+    width: 100%;
+    margin-top: 20;
+}
+.contactUsContainer 
+{
+   
+    flex-direction: column-reverse ;
+}
+.address {
+    width: 100%;
+    margin-top: 40;
+    
+}
+form {
+    width: 100%;
+    margin-bottom: 40;
+}
+.footer-area-container {
+    width:90%;
+  
+}
+.footer-area .footer-area-container .footerInner
+{
+    justify-content: center;
+}
+  
+       
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media  screen and (min-width: 769px) and (max-width: 992px)
+{
+    .navbar
+    {
+
+        background-color: transparent;
+        
+    }
+    .navContant {
+
+        display: flex;
+    
+    }
+    .socialIcon
+    {
+        display: none;
+    }
+    .navContant ul
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+    .navContant ul li a
+    {
+        font-size: 14px;
+    }
+    .navbar .logo a
+    {
+        display: flex;
+        font-size: 14px;
+    }
+    .navbar .logo a img
+    {
+        width: 80%;
+      
+    }
+    .caption .prag1 {
+        font-size: 1.2rem !important;
+      
+    }
+    .caption h2 {
+       
+        font-size: 48px;
+       
+    }
+    
+    .caption .prag2 
+    {
+        
+        font-size: 20px !important;
+    }
+    .header h2 {
+       
+        font-size: 6rem !important;
+    }
+    .header p
+    {
+        font-size: 24px;
+    }
+
+
+    .container
+    {
+        margin: 0;
+        padding: 0 12;
+    }
+    .aboutCaptionContainer .same {
+        margin-top: 0;
+        
+    }
+    
+    .first{
+        width: 100%;
+        
+    }
+    .firstInner
+    {
+        text-align: center;
+    }
+    .second {
+        width: 100%;
+        
+        padding-left: 0;
+        
+        
+    }
+    .secondInner {
+       
+        padding-left: 0;
+    
+    }
+    .second .secondInner ul 
+    {
+       
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .second .secondInner ul li
+    {
+        width: 80%;
+        margin-right: auto;
+    }
+    .secondInner ul li span {
+        margin-right: 0;
+        
+    }
+    .CV-btn 
+    {
+        text-align: center;
+        font-size: 12;
+        padding: 0.8rem 1.8rem;;
+    }
+    .singleFact {
+        width: 50%;
+
+    }
+    .fact1
+    {
+        border-right: 1px dotted #e0dede;
+        border-bottom:1px dotted #e0dede; 
+    }
+    .fact2 
+    {
+        border-bottom:1px dotted #e0dede; 
+        border-left:none;
+        border-right:none;
+    }
+    .fact3
+    {
+        border-right:1px dotted #e0dede; 
+       
+       
+    }
+    .singleService {
+        width: 100%;
+       
+    }
+    .myEduction,
+.myExperience {
+
+    width: 100%;
+  
+    padding: 0 24;
+
+}
+.singleSkill {
+
+    width: 100%;
+}
+.singleSkill1 ,.singleSkill2
+{
+    padding:0;
+}
+.download-cv-btn .btn {
+    color: #6c757d;
+  
+    padding: 0.6rem 1.6rem;
+    
+
+}
+.portfolio-pic-container
+{
+    width: 100%;
+}
+.singleClient {
+    width: 100%;
+    margin-top: 20;
+}
+.contactUsContainer 
+{
+    flex-wrap:wrap 
+    flex-direction: column-reverse ;
+}
+.address {
+    width: 100%;
+    margin-top: 40;
+    
+}
+form {
+    width: 100%;
+    margin-bottom: 40;
+}
+.footer-area-container {
+    width:90%;
+  
+}
+.footer-area .footer-area-container .footerInner
+{
+    justify-content: center;
+}
+  
+}
+
